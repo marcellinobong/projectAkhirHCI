@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="src/images/icons/mjolnir.png"
+    />
+    <link rel="stylesheet" href="./src/style/index.css" />
+    <title>Frawlsalla | Registration</title>
+  </head>
+  <body>
+    <a href="./index.html" class="form-slug">Back to homepage</a>
+    <div class="form-container">
+      <div class="form-wrapper">
+        <h1>Register Now !!!</h1>
+        <form name="register" onsubmit="return validateForm()" action="./index.html">
+          <div class="form-group">
+            <label for="usrname">Username</label>
+            <input type="text" id="usrname" name="usrname" />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" />
+          </div>
+          <div class="form-group">
+            <label for="psw">Password</label>
+            <input
+              type="password"
+              id="psw"
+              name="psw"
+              
+            
+            />
+          </div>
+          <div class="form-group">
+            <div class="form-row"">
+              <h4>Choose Gender</h4>
+              <input type="radio" id="male" name="gender" value="male" />
+              <label for="gender">Male</label>
+              <input type="radio" id="female" name="gender" value="female"/>
+              <label for="gender">Female</label>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="form-row">
+            <input type="checkbox" id="" name="checkbox"/>
+            <label for="checkbox">Agree to terms & conditions</label></div>
+          </div>
+          <input type="submit" value="Submit" class="btn-submit" />
+        </form>
+      </div>
+    </div>
+    <script src="./src/script/indes.js"></script>
+  </body>
+</html>
